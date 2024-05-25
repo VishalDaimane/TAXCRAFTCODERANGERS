@@ -511,7 +511,10 @@ def main():
     
         
        
-        st.write("<iframe src='https://www.chatbase.co/chatbot-iframe/pgFbsOUgVK4E4Xakpbj-L' width='100%' height='700px' style='border:none;'></iframe>", unsafe_allow_html=True)
+       st.write("""
+        <iframe src='https://www.chatbase.co/chatbot-iframe/pgFbsOUgVK4E4Xakpbj-L' 
+        width='100%' height='600px' style='border:none;'></iframe>
+    """, unsafe_allow_html=True)
 
     st.write("Created with ❤ by CODE RANGERS")
 
